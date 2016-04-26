@@ -21,7 +21,7 @@
         var val = event.target.value;
         var newTodo = document.createElement('li');
         newTodo.innerHTML = val;
-        todoList.appendChild(newTodo);
+        todoList.insertBefore(newTodo, event.target);
       }
     }
   </script>
