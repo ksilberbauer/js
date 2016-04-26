@@ -17,7 +17,8 @@
   <script>
     function addTodo(event) {
       if (event.which === 13) {
-        alert('ENTER key pressed');
+        var val = event.target.value;
+        alert('ENTER key pressed. Value: ' + val);
       }
     }
   </script>
