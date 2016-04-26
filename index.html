@@ -16,7 +16,9 @@
 
   <script>
     function addTodo(event) {
-      alert('Key up!');
+      if (event.which === 13) {
+        alert('ENTER key pressed');
+      }
     }
   </script>
 </body>
