@@ -19,7 +19,9 @@
       var todoList = document.getElementById('todoList');
       if (event.which === 13) {
         var val = event.target.value;
-        alert(todoList);
+        var newTodo = document.createElement('li');
+        newTodo.innerHTML = val;
+        todoList.appendChild(newTodo);
       }
     }
   </script>
