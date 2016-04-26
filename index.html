@@ -7,7 +7,7 @@
 
   <h1>TODO:</h1>
 
-  <ul>
+  <ul id="todoList">
     <li>Practice HTML/CSS</li>
     <li>Learn JavaScript</li>
     <li>Create a website!</li>
@@ -16,9 +16,10 @@
 
   <script>
     function addTodo(event) {
+      var todoList = document.getElementById('todoList');
       if (event.which === 13) {
         var val = event.target.value;
-        alert('ENTER key pressed. Value: ' + val);
+        alert(todoList);
       }
     }
   </script>
