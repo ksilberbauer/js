@@ -22,6 +22,7 @@
         var newTodo = document.createElement('li');
         newTodo.innerHTML = val;
         todoList.insertBefore(newTodo, event.target);
+        event.target.value = '';
       }
     }
   </script>
