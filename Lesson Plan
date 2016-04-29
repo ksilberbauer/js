@@ -1,0 +1,32 @@
+Review: 
+- DOM
+- parent/child relationship
+- CSS selectors
+
+1. Change title / h1
+2. HTML is static; requires new URL/refresh
+  - create ul/li
+3. JavaScript allows dynamic interactions (review :hover)
+4. Add input
+5. Add onkeyup
+  - alert
+  - basic function + alert
+  - basic function + event
+6. event properties
+  - event.which
+  - event.target
+  - alert event.which
+  - ENTER if-statement
+7. DOM element - newTodoInput
+  - event.target.value
+  - alert(value)
+8. createElement
+  - new li
+  - innerHTML
+9. appendChild
+  - document.body
+  - ul.id + getElementById
+  - insertBefore
+10. *** catch up time ***
+  - BONUS: clear the text input everytime
+  - BONUS: don't allow them to enter null/empty strings
